@@ -1,2 +1,3 @@
-#Backend Learning With the Github 
-Hi lets Start Learning 
+# Backend Learning with GitHub
+
+Hi, let's start learning!

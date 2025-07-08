@@ -23,7 +23,7 @@ class ApiResponse {
         this.success = this.statusCode < 400;
     }
 }
-
+export default ApiResponse;
 // Example usage:
 // let response = new ApiResponse(200, "OK", { user: "Alice" });
 // This creates an object representing a successful API response with some data.

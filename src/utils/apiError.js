@@ -37,6 +37,7 @@ class ApiError extends Error { // 'extends Error' means ApiError is based on the
   }
 }
 
+export  {ApiError};
 // --- Full Explanation ---
 // - 'class' lets you create a blueprint for objects. Here, ApiError is a blueprint for error objects.
 // - 'extends Error' means ApiError gets all features of the built-in Error class, plus any new ones you add.

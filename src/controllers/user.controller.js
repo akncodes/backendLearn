@@ -1,9 +1,7 @@
-import { asyncHandler } from "../middlewares/asyncHandler.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 
-const registerUser = asyncHandler(async (req, res) => {
-  // Logic to register a user
-    // For example, saving user data to the database
-  res.status(200).json({ message: "Ok" });
+const registerUser = asyncHandler(async(req, res) => {
+  res.status(201).json({ message: "User registered successfully" });
 });
 
-export default registerUser
+export default registerUser;
